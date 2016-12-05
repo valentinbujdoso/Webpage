@@ -1,4 +1,4 @@
-#Begin of the table
+/*Begin of the table*/
 table, ul {
 	list-style-type: none; #??
 }
@@ -18,8 +18,8 @@ td{
     width: 150px;	
 }
 
-#End of the table
-#Begin of the menu
+/*End of the table*/
+/*#Begin of the menu*/
 
 
 li {
@@ -28,9 +28,9 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-#    color: white;
+/*    color: white;*/
     color: black;
-#    padding: 14px 16px;
+/*    padding: 14px 16px;*/
     padding-top:10px;
 	padding-bottom:5px;
 	padding-left:17px;
@@ -56,11 +56,13 @@ li a, .dropbtn {
         border: 0;
     }
 
-li a:hover, .dropdown:hover .dropbtn, div.wrapper li.selected a{ #2. half for the selected menu item
+li a:hover, .dropdown:hover .dropbtn,
+div.wrapper li.selected a,
+div.wrapper li.dropdownselected a.dropbtn{ /*#2. half for the selected menu item*/
     font-weight: bold;
 }
 
-li.dropdown {
+li.dropdown, li.dropdownselected {
     display: inline-block;
 }
 
@@ -82,7 +84,7 @@ li.dropdown {
 
 #.dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdownselected:hover .dropdown-content{
     display: block;
 }
 
@@ -102,4 +104,4 @@ hr{
 	margin-bottom:0;
 }
 
-#End of the menu
+/*End of the menu*/
