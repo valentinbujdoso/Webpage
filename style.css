@@ -56,9 +56,7 @@ li a, .dropbtn {
         border: 0;
     }
 
-div.wrapper li.selected a { font-weight: bold; } #for the selected menu item
-
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn, div.wrapper li.selected a{ #2. half for the selected menu item
     font-weight: bold;
 }
 
