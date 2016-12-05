@@ -30,7 +30,11 @@ li a, .dropbtn {
     display: inline-block;
 #    color: white;
     color: black;
-    padding: 14px 16px;
+#    padding: 14px 16px;
+    padding-top:10px;
+	padding-bottom:5px;
+	padding-left:17px;
+	padding-right:17px;
     text-decoration: none;
 	text-align: center;
 }
@@ -90,6 +94,12 @@ a::after {
     color:transparent;
     overflow:hidden;
     visibility:hidden;
+}
+
+hr{
+    padding:0;
+	margin-top:0;
+	margin-bottom:0;
 }
 
 #End of the menu
