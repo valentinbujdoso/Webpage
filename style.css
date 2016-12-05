@@ -1,40 +1,26 @@
 #Begin of the table
 table, ul {
-	list-style-type: none;  #??
-}
-
-table{
-    width: 1260px;
-	border: 1px;	
+	list-style-type: none; #??
 }
 
 table.center {
+    width: 1260px;
     margin-left:auto; 
     margin-right:auto;
 }
 
 td{
-    width: 320px;
-	text-align: center;	
+	width: 320px;
+	text-align: center;
 }
 
 .td150{
     width: 150px;	
 }
 
-/*table, td, th {
-    font-weight: normal;
-    border: 1px solid black;
-}*/
 #End of the table
 #Begin of the menu
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-#    background-color: #333;
-}
+
 
 li {
     float: left;
@@ -44,10 +30,27 @@ li a, .dropbtn {
     display: inline-block;
 #    color: white;
     color: black;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	text-align: center;
 }
+
+.wrapper {
+        text-align: center;
+    }
+    .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
+    }
+    .wrapper li {
+        float: left;
+        padding: 0;
+        border: 0;
+    }
 
 li a:hover, .dropdown:hover .dropbtn {
     font-weight: bold;
@@ -78,4 +81,15 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+a::after {
+    display:block;
+    content:attr(title);
+    font-weight:bold;
+    height:1px;
+    color:transparent;
+    overflow:hidden;
+    visibility:hidden;
+}
+
 #End of the menu
